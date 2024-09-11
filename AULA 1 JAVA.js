@@ -12,9 +12,9 @@ const input = require ('prompt-sync') ();
     if (imc < 18.5) {
       console.log(imc = "cracudo");
     } else if (imc >= 18.5 && imc < 24.9) {
-      console.log(imc = "Peso normal");
+      console.log(imc = "semi-cracudo");
     } else if (imc >= 25 && imc < 29.9) {
-      console.log(imc = "Acima do peso");
+      console.log(imc = "Monstro saindo da jaula");
     } else if (imc >= 30 && imc < 34.9) {
       console.log(imc = "Obesidade grau 1");
     } else if (imc >= 35 && imc < 39.9) {
